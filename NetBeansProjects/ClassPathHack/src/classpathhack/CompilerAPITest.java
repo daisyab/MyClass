@@ -30,7 +30,7 @@ import javax.tools.ToolProvider;
  */
 public class CompilerAPITest {
 
-    static final Logger logger = Logger.getLogger(CompilerAPITest.class.getName());
+     final Logger logger = Logger.getLogger(CompilerAPITest.class.getName());
 
     public static void main(String args[]) {
         new CompilerAPITest().doCompilation();
